@@ -1,0 +1,69 @@
+.main{
+    width: 600px;
+    height: 300px;
+    margin: 20px auto;
+}
+.main .smallBox{
+    position: relative;
+    float: left;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+
+}
+.main .smallBox img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.main .smallBox .mark{
+     position: absolute;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 50%;
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+    cursor: move;
+    visibility: hidden;
+    /*display: block;*/
+}
+.main .bigBox{
+    float: right;
+    width: 300px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    display: none;
+    /*border-radius: 50%;*/
+
+}
+.main .bigBox img{
+    display: block;
+    width: 300%;
+    height: 300%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
